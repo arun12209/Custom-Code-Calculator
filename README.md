@@ -13,10 +13,10 @@ Let's check how the developer calculates the custom code percentage?
 * Copy the “Size Without Comments” column value from production and take a note of that value.
 * Use calculator software, to calculate length difference and custom code percentage increased or decreased.
 
-### Problems in the above steps:
+### ⚠️ Problems in the above steps:
 * The above steps/process is a little time-consuming.
 * We don’t have a quick search to find apex class or trigger. 
-* Need to navigate through long pagination for some cases to find the apex class/trigger "Size Without Comments" value for that class.
+* Need to navigate through long pagination for some cases to find the apex class/trigger "Size Without Comments" value.
 * Calculations need to be done manually on calculator software.
 * Chance of error in the calculations.
 
