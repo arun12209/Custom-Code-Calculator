@@ -34,3 +34,6 @@ All the above problems you can solve using this application.
 * Create a connected app in your Production org.
 * Create an Auth. provider in sandbox instance.
 * Create a Named Credential in sandbox instance.
+
+# Authors
+* Arun Kumar -[@ArunKur94](https://twitter.com/ArunKur94)
