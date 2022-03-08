@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Production_Org</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint_URL__c</field>
+        <value xsi:type="xsd:string">callout:ProductionOrgAPI/services/data/v54.0/tooling/query/</value>
+    </values>
+    <values>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">GET</value>
+    </values>
+    <values>
+        <field>Timeout__c</field>
+        <value xsi:type="xsd:double">120000.0</value>
+    </values>
+    <values>
+        <field>URL_parameters__c</field>
+        <value xsi:type="xsd:string">q:&lt;query&gt;</value>
+    </values>
+</CustomMetadata>
