@@ -1,0 +1,73 @@
+<template>
+    <div class="main-container">
+            <lightning-card variant="Narrow" title="Calculate Custom Code" icon-name="standard:record">
+                <div class="slds-var-m-around_small">
+                    <p>Search Apex Classes/Triggers</p>
+                        <lightning-combobox name="apexType"
+                                    label="Apex Type"
+                                    value={selectedApexType}
+                                    placeholder="Select Apex Type"
+                                    options={apexTypeOptions}
+                                    onchange={apexTypeChangeHandler} 
+                                    class="leave-type">
+                        </lightning-combobox><br/>
+                        <c-lookup-items obj-name={selectedApexType} search-placeholder={searchPlaceholder} icon-name="utility:apex" onlookupselected={handleSelection}> 
+                        </c-lookup-items>
+                </div><br/>
+                
+                <lightning-button variant="brand" label="Calculate" title="Primary action" onclick={handleClick} icon-name="utility:calculated_insights"  class="slds-m-left_x-small"> 
+
+                </lightning-button>
+               <!--Spinner-->
+               <template if:true={isLoading}>
+                <div class="slds-p-around_x-large">
+                    <lightning-spinner alternative-text="Loading" size="large" variant="brand"></lightning-spinner>
+                </div>
+                </template>
+                <template if:true={displayResult}>
+                        <div class="result" style="padding: 0.5%;margin-top: 1%;">
+                            <div class="demo-only" style="width:40rem">
+                                <article class="slds-tile slds-media">
+                                  <div class="slds-media__figure">
+                                        <lightning-icon icon-name="utility:summarydetail" alternative-text="Result details" title="Result details"></lightning-icon>
+                                  </div>
+                                  <div class="slds-media__body">
+                                    <h3 class="slds-tile__title slds-truncate" title="RESULT">
+                                      <a href="#">RESULT</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                      <dl class="slds-list_horizontal slds-wrap">
+                                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Lenght in source org"> 
+                                            Lenght in Source Org :
+                                        </dt>
+                                        <dd class="slds-item_detail slds-truncate" title={lenghtInSourceOrg}>
+                                            <b>{lenghtInSourceOrg}</b>
+                                        </dd> 
+                                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Lenght in destination org">
+                                            Lenght in Destination Org : 
+                                        </dt>
+                                        <dd class="slds-item_detail slds-truncate" title={lenghtInDestinationOrg}>
+                                            <b>{lenghtInDestinationOrg}</b>
+                                        </dd>
+                                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Lenght Difference">
+                                            Lenght Difference : 
+                                        </dt>
+                                        <dd class="slds-item_detail slds-truncate" title={lenghtDifference}>
+                                             <b>{lenghtDifference}</b>
+                                        </dd>
+                                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Lenght Difference">
+                                            {percentagePlaceholder}
+                                        </dt>
+                                        <dd class="slds-item_detail slds-truncate" title={lenghtDifference}>
+                                             <b>{diffPercentage}</b>
+                                        </dd>
+                                      </dl>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                        </div>
+                </template>
+            </lightning-card>
+        </div>
+</template>
