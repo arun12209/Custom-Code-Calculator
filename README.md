@@ -33,7 +33,14 @@ All the above problems you can solve using this application.
 # :hammer_and_wrench: Setup & Configurations
 * Create a connected app in your Production org.
 * Create an Auth. provider in sandbox instance.
+ ![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/Auth_Provider.png)
 * Create a Named Credential in sandbox instance.
+ ![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/NamedCredentials_setting.png)
+
+# :tv: DEMO
+![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/CustomCodeCalculatorDemo.png)
+![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/ApexClassCalculation.png)
+![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/ApexTriggerCalculation.png)
 
 # Authors
 * Arun Kumar -[@ArunKur94](https://twitter.com/ArunKur94)
