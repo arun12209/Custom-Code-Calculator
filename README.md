@@ -25,6 +25,7 @@ All the above problems you can solve using this application.
 # :high_brightness: Features
 * Quickly search Apex class or trigger right inside your sandbox org.
 * This app tells you the apex class/trigger length in the developer sandbox.
+* Get Apex Class/Trigger lenght from production org.
 * This calculates the length difference and custom code percentage increased /decreased in just a single click.
 * If you have created a new class or trigger, then also it will calculate the custom code percentage for you.
 * We can only search for the classes that we have created; it excludes the managed package classes in the search.
