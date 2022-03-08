@@ -28,7 +28,7 @@ All the above problems you can solve using this application.
 * Get Apex Class/Trigger lenght from production org.
 * This calculates the length difference and custom code percentage increased /decreased in just a single click.
 * If you have created a new class or trigger, then also it will calculate the custom code percentage for you.
-* We can only search for the classes that we have created; it excludes the managed package classes in the search.
+* We can only search for the classes that you have created; it excludes the managed package classes in the search.
 * Nice and easy interface developed with a lighting web component.
 
 # :hammer_and_wrench: Setup & Configurations
