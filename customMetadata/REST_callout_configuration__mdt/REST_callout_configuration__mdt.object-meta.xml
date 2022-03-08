@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata type stores the callout details</description>
+    <label>REST callout configuration</label>
+    <pluralLabel>REST callout configuration</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
