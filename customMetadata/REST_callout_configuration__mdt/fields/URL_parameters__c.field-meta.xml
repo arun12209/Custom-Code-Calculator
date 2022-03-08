@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>URL_parameters__c</fullName>
+    <description>This field stores the parameters</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>URL parameters to send in the API callout</inlineHelpText>
+    <label>URL parameters</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>
