@@ -32,7 +32,7 @@ All the above problems you can solve using this application.
 * Nice and easy interface developed with a lighting web component.
 
 ## :outbox_tray: Deployment
-:package: [Click Here](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5j000000giuh) to install the package in Sandbox instance.
+:package: [Click Here](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5j000000giuh) to install the package in the Sandbox instance.
 
 or use the below URL:
 
