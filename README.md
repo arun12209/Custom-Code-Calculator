@@ -45,10 +45,13 @@ or use the below URL:
 * Create a Named Credential in sandbox instance.
  ![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/NamedCredentials_setting.png)
 
-## :tv: DEMO
+## :tv: Demo
 ![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/CustomCodeCalculatorDemo.png)
 ![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/ApexClassCalculation.png)
 ![](https://github.com/arun12209/Custom-Code-Calculator/blob/main/Images/ApexTriggerCalculation.png)
+
+## ✍️ Blog post
+:link: https://sfdclesson.com/2022/03/12/apex-custom-code-calculator/
 
 ## Authors
 * Arun Kumar -[@ArunKur94](https://twitter.com/ArunKur94)
